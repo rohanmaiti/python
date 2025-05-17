@@ -1,20 +1,21 @@
-# # print some thing 
+# #*print some thing 
 # print("Hello Rohan");
 # # print varients
 # print("My name is Rohan.");
 # print("My age is 21");
 # print("My name is Rohan.", "My age is 21.");
 
-# # printing number
+# #*printing number
 # print(25);
 # print(25+35);
 
-# # variable
+# #*variable 
 # name = "Rohan"; # string
 # age = 21; # number 
 # price = 15.23;
 # print(name, age, price);
 # print("my name is :",name);
+name
 
 # age2 = age; # copying the value
 # print(age2);
