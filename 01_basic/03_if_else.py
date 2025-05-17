@@ -1,8 +1,8 @@
-# Conditional Statement
-# focus on the syntax
+# #* Conditional Statement
+# #* focus on the syntax
 # age = 22
 # if(age >= 18 and age<21):
-#     print("can drive"); #indentaion (proper spacing)
+#     print("can drive"); #* indentaion-->(proper spacing)
 #     print("can vote");
 # elif(age>=21 and age<=35):
 #     print("Eigible for marraige");
@@ -13,7 +13,7 @@
 
 # same if like c,c++,java : if one statements runs then will not run other
 
-# nesting if else
+# #* nesting if else
 # age = 21
 # if(age >= 18):
 #     print("Above 18");
@@ -24,14 +24,14 @@
 # else:
 #     print("Under 18");
 
-# Q. Check weather a number is odd or even
+# #* Q.Check weather a number is odd or even
 # num = int(input("Enter a number: "));
 # if(num%2 == 0):
 #     print("Even number");
 # else:
 #     print("Odd number");
 
-# Q. Find Gretest of Three number
+# #*. Q.Find Gretest of Three number
 # num1 = int(input("Enter num1: "));
 # num2 = int(input("Enter num2: "));
 # num3 = int(input("Enter num3: "));
