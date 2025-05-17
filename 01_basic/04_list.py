@@ -50,12 +50,12 @@
 
 # #* insert at index
 # list = [1,2,3,4,5];
-# list.insert(1, 500); # can insert one ele at a time
+# list.insert(1, 500); #* can insert one ele at a time
 # print(list);
 
 # #* remove element from list
 # list = [2,1,3,1];
-# list.remove(1); #*remove(ele) --> removes first occurance of the element
+# list.remove(1); #* remove(ele) --> removes first occurance of the element
 
 # #* pop(idx)
 # list = [0,1,2,3,4,5,6,7,8,9];
