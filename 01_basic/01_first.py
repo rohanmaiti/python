@@ -95,7 +95,7 @@ multiline comment
 # #* taking input
 # name = input("enter your name : "); #* take space also and all input are by default string
 # print("your name is :",name);
-# print(type(name)); # all input value is bydefault string
+# print(type(name)); #* all input value is bydefault string
 
 # #* taking int as a input 
 # num1 = int(input("Enter 1st number : "));
