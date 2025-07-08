@@ -6,8 +6,10 @@
 # print("My name is Rohan.", "My age is 21.");
 
 # #*printing number
-# print(25);
-# print(25+35);
+# print(25)
+print(25+35)
+name="Rohan"
+print(f"hii hello {name}")
 
 # #*variable 
 # name = "Rohan"; # string
