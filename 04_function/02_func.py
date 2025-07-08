@@ -7,3 +7,14 @@ to avoid getting an error.
 
 def myfunction():
   pass
+
+
+
+#* Function return None if not return statement is there 
+def goodDay():
+  print('Good day function')
+
+val = goodDay()
+print(val)
+
+#* if function is not returning anything then it will return None | similar to js (undefined)
