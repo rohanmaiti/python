@@ -3,6 +3,12 @@
 # print(marks);
 # print(type(marks));
 
+#* Empty list
+# list = []
+# list.append(10)
+# list.append(20)
+# print(list)
+
 # print(marks[0]);
 # print(marks[len(marks)-1]); #* length of List
 

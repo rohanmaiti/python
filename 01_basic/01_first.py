@@ -71,6 +71,7 @@ multiline comment
 # print(4 or 3);  #* if both the numbers are not non-zero and the operator is or then retuns the left side's number
 # print( 5 and 4 and 6 and 2);  #* will return the left most
 # print((a == b) or (b > a));
+# print ( a != b)
 
 # *Type conversion
 # *1. Type conversion (automatic)
