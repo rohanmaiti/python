@@ -37,3 +37,44 @@ print(Calculator.square(10))
 print(Calculator.cube(10))
 print(Calculator.squareroot(10))
 Calculator.hello()
+
+# Write a Class ‘Train’ which has methods to book a ticket, get status (no of seats)
+# and get fare information of train running under Indian Railways.
+
+class Train:
+    allStations = {
+        stations: [
+            {
+                name: 'Balichak',
+                id:'1'
+            },
+            {
+                name: 'Samchak',
+                id:'2'
+            },
+            {
+                name: 'Madpur',
+                id:'3'
+            },
+            {
+                name: 'Kharagpur',
+                id:'4'
+            },
+            {
+                name: 'Medinipur',
+                id:'5'
+            }
+        ]
+    }
+    @staticmethod
+    def calcualteFare(source, destination):
+            for station in allStations.stations:
+                if ( source == station.name ):
+                    s = station.name
+                if (destionation == station.name):
+                    d = station.name
+        
+            if ( s == None or d == None) :
+             print('Enter valid stations name')
+            else:
+             print('Your fare is')
