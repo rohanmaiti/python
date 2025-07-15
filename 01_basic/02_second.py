@@ -1,3 +1,6 @@
+
+#****** Mutable                         and                    Immutable 
+# list, set, dictionary                            string, all number types, tuple, boolean
 # #* STRING(immutable) ( \n:for next line, \t: for tabspace)
 # str1 = "This is a string. \nAnd this is next line and a tab \tabc"
 # print(str1);
