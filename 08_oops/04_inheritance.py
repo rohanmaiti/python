@@ -9,7 +9,7 @@ class Car:
 
 class ElectricCar(Car):
     def __init__(self, brand, model, batttery_size):
-        super().__init__(brand, model)
+        super().__init__(brand, model) # calling parent class constructor
         self.batttery_size = batttery_size
 
 my_car = ElectricCar('Toyota', 'Fortuner', '1000kw')
