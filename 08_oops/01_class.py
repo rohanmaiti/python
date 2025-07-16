@@ -22,7 +22,7 @@ inova.noOfWheel = 10 # this is an instance attribute
 inova.color = 'red'
 # print(inova.color, inova.noOfWheel)
 
-# ****************************************************
+# *******************   SELF    *********************************
 # class Employee:
 #     name='Rohan'
 #     salary=120000
