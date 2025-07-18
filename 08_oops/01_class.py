@@ -61,7 +61,8 @@ class Demo:
 d = Demo()
 d.instance_method()
 Demo.class_method()
-Demo.static_method()
+Demo.static_method() 
+d.static_method()
 
 
 
