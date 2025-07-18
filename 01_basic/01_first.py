@@ -115,3 +115,11 @@ multiline comment
 # take a input of a square and o/p the area
 # side = float(input("enter side of a square: "));
 # print("Area of square is ,",(side**2));
+
+# #* question 
+result = 10 / 3
+print(result) # 3.33333333
+
+#* to decide precidence 
+result = round(10/3 , 2)
+print(result)
