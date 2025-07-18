@@ -53,3 +53,61 @@
 # str = "i am a $coder and $ will go to school";
 # print("Number of time $ appear in the string is", str.count("$"));
 
+# #* join
+list = ['one', 'two', 'three']
+# how to make the list values print like this ---> one, two, three
+result = (', ').join(list)
+print(result)
+
+# #* split
+string = 'rohan rahul tamanna'
+result = string.split(' ')
+print(result)
+
+#* Map || Comprehension
+# Example-1 
+def square(n):
+    return n*2
+result = [square(x) for x in [1, 2, 3]]
+print(result)
+# Example-2 (another syntax)
+result = [x*2 for x in [1,2,3]]
+print(result)
+
+#* Ternary Operator 
+# syntax -->#* value_if_true if condition else value_if_false
+result = "Number is even" if (10%2 == 0) else "Numbre is odd"
+print(result)
+
+#* question-> loop through the array and return the number if it is even else return None
+result = [x if(x%2 == 0) else None for x in [1, 2, 3, 4, 5, 6]]
+print(result)
+
+#* Filter
+result = [x for x in [1,2,3,4,5,6,7,8,9] if (x%2 == 0)]
+print(result)
+
+#* some / every 
+result = any( x > 2 for x in [1,2,3,4,5])
+print(result)
+result = all( x > 2 for x in [1,2,3,4,5])
+print(result)
+
+#* Array Merge / Concat
+concated_array = [1, 2] + [3, 4]
+print(concated_array)
+
+#* SORT
+result = sorted([3, 1, 4])  # [1, 3, 4] 
+print(result)
+
+#* spread operator 
+array1 = [1,2,3,4,5,6]
+array2 = [*array1, 7,8,9]
+print(array2)
+
+
+# ✅ 9. Zip (like JS Object.entries() & Object.fromEntries())
+keys = ['name', 'age']
+values = ['Rohan', 22]
+dict(zip(keys, values))  # {'name': 'Rohan', 'age': 22}
