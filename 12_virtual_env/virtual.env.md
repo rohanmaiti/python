@@ -1,8 +1,8 @@
 # why we need python environment ?
->> find ans online
+> find ans online
 # setp-1 
 ```bash
-- pip3 install virtualenv
+pip3 install virtualenv
 ```
 > this will install venv in global execution context
 # step-2
