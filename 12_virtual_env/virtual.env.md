@@ -1,7 +1,10 @@
 # why we need python environment ?
 >> find ans online
 # setp-1 
+```bash
 - pip3 install virtualenv
+```
+> this will install venv in global execution context
 # step-2
 # on your project directory 
 ```bash
