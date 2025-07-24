@@ -9,5 +9,4 @@ def get_products():
     except Exception as e:
         raise e
    
-   
 get_products()

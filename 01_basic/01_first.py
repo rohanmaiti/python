@@ -7,9 +7,9 @@
 
 # #*printing number
 # print(25)
-print(25+35)
-name="Rohan"
-print(f"hii hello {name}")
+# print(25+35)
+# name="Rohan"
+# print(f"hii hello {name}")
 
 # #*variable 
 # name = "Rohan"; # string
@@ -35,7 +35,7 @@ print(f"hii hello {name}")
 # print(type(name));
 
 # #* Datatype in python
-# #* Integer, String (can be writen inside "str",'str','''str'''), Float, Boolean(True, Flase : note T and F are capital), None (None)
+# #* Integer(int), String(str) (can be writen inside "str",'str','''str'''), Float(float), Boolean(True, Flase : note T and F are capital), None (None)
 # x = True;
 # a = None;
 # print(type(x));
