@@ -33,6 +33,15 @@
 # print(tup.index(3));  #* tup.index(ele) ---> will return the first occarance index
 # print(tup.count(3));  #* return the count of element in the tuple
 
+# #* Tuple uppacking | like js destructureing  
+# suppose these is a list of tuple 
+tup = ("id", 1314)
+# you can store the value of tuple in your choice's variable 
+roll_number, value_of_roll_number = tup
+print(roll_number, value_of_roll_number)
+
+
+
 # #* Q.Ask to enter three movie names from user and store it in a list
 # movie1 = input("Enter first movie name: ");
 # movie2 = input("Enter second movie name: ");
