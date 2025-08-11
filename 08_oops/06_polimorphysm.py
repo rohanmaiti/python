@@ -48,7 +48,7 @@
 # print(Car.total_car)
 
 
-# ** make the model instance read only using decorator 
+# ** how make the model instance read only using decorator 
 # class Car:
 #     def __init__(self, brand, model):
 #         self.__brand = brand # make this privare 
