@@ -31,7 +31,7 @@ inova.color = 'red'
 
 # emp1 = Employee()
 # emp1.getInfo()
-# the above line is being called like this --> Employee.getInfo(emp1); 
+# *the above line is being called like this --> Employee.getInfo(emp1); 
 # that's why need to accept a argument at the function defination
 # every function in the function defination in a class need to write one argument "MUST"
 
