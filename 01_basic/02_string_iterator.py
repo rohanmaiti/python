@@ -54,33 +54,33 @@
 # print("Number of time $ appear in the string is", str.count("$"));
 
 # #* join
-list = ['one', 'two', 'three']
-# how to make the list values print like this ---> one, two, three
-result = (', ').join(list)
-print(result)
+# list = ['one', 'two', 'three']
+#* how to make the list values print like this ---> one, two, three
+# result = (', ').join(list)
+# print(result)
 
 # #* split
-string = 'rohan rahul tamanna'
-result = string.split(' ')
-print(result)
+# string = 'rohan rahul tamanna'
+# result = string.split(' ')
+# print(result)
 
 #* Map || Comprehension
 # Example-1 
-def square(n):
-    return n*2
-result = [square(x) for x in [1, 2, 3]]
-print(result)
+# def square(n):
+#     return n*2
+# result = [square(x) for x in [1, 2, 3]] # this is like map--> at each iteration it returns something
+# print(result)
 # Example-2 (another syntax)
-result = [x*2 for x in [1,2,3]]
-print(result)
+# result = [x*2 for x in [1,2,3]]
+# print(result)
 
 #* Ternary Operator 
-# syntax -->#* value_if_true if condition else value_if_false
-result = "Number is even" if (10%2 == 0) else "Numbre is odd"
-print(result)
+# syntax -->#* <value_if_true> if [condition] else <value_if_false>
+# result = "Number is even" if (10%2 == 0) else "Numbre is odd"
+# print(result)
 
 #* question-> loop through the array and return the number if it is even else return None
-result = [x if(x%2 == 0) else None for x in [1, 2, 3, 4, 5, 6]]
+result = [x if(x%2 == 0) else None for x in [1, 2, 3, 4, 5, 6, 7, 8]]
 print(result)
 
 #* Filter
