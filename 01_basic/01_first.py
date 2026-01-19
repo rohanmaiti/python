@@ -34,8 +34,10 @@
 # print(type(price));
 # print(type(name));
 
-# #* Datatype in python
+# #* Datatype in python --> 
+# #* 1. Immutable 
 # #* Integer(int), String(str) (can be writen inside "str",'str','''str'''), Float(float), Boolean(True, Flase : note T and F are capital), None (None)
+# #* 2. Mutable - list, dict, set
 # x = True;
 # a = None;
 # print(type(x));
