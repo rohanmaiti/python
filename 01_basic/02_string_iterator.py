@@ -13,7 +13,7 @@
 # #* lenght of a function
 # print(len(str1));
 
-# #* indexing
+# #* indexing (0 base indexing)
 # print(str1[0], str1[1], str1[2]);
 # #* but can't change using index
 # # str1[0] = "X"; # X
@@ -22,7 +22,7 @@
 # #* slicing
 # str="01234567"
 # print(str[1:4]);
-# print(str[2:len(str)]);
+# print(str[2:len(str)]); #* 2 to last index
 # print(str[2:]); #* 2 to last index
 # print(str[:4]); #* 0 to 3 index
 # print(str[5:1])
@@ -61,8 +61,9 @@
 
 # #* split
 # string = 'rohan rahul tamanna'
-# result = string.split(' ')
+# result = string.split(' ') #* returns list
 # print(result)
+# print(type(result))
 
 #* Map || Comprehension
 # Example-1 
@@ -80,22 +81,22 @@
 # print(result)
 
 #* question-> loop through the array and return the number if it is even else return None
-result = [x if(x%2 == 0) else None for x in [1, 2, 3, 4, 5, 6, 7, 8]]
-print(result)
+# result = [x if(x%2 == 0) else None for x in [1, 2, 3, 4, 5, 6, 7, 8]]
+# print(result)
 
 #* Filter
-result = [x for x in [1,2,3,4,5,6,7,8,9] if (x%2 == 0)]
-print(result)
+# result = [x for x in [1,2,3,4,5,6,7,8,9] if (x%2 == 0)]
+# print(result)
 
 #* some / every 
-result = any( x > 2 for x in [1,2,3,4,5])
-print(result)
-result = all( x > 2 for x in [1,2,3,4,5])
-print(result)
-
+# result = any( x > 2 for x in [1,2,3,4,5]) #* returns True or False
+# print(result)
+# result = all( x > 2 for x in [1,2,3,4,5]) #* returns True or False
+# print(result)
+# print(type(result))
 #* Array Merge / Concat
-concated_array = [1, 2] + [3, 4]
-print(concated_array)
+# concated_array = [1, 2] + [3, 4]
+# print(concated_array)
 
 #* SORT
 result = sorted([3, 1, 4])  # [1, 3, 4] 
