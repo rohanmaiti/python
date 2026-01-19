@@ -23,7 +23,7 @@
 # #* make it initialise with None
 # fullname = None;  #* in this case not error
 
-# age2 = age; #* copying the value
+# age2 = age; #* copying the value (deep copy for immutable types (int, float, str, bool))
 # print(age2);
 # age = 23;
 # print(age);
