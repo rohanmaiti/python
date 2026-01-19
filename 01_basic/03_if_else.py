@@ -11,6 +11,13 @@
 
 # print("end of code");
 
+# #*  Does python check type ?
+# num = 10
+# if (num == "10"):  #* Yes, Python checks both value AND type when using ==. This is called strict equality.
+#     print("10 True")
+# else:
+#     print("10 False")
+
 # same if like c,c++,java : if one statements runs then will not run other
 
 # #* nesting if else
