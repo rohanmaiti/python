@@ -67,11 +67,11 @@ class Train:
         ]
     }
     @staticmethod
-    def calcualteFare(source, destination):
+    def calcualteFare(allStations, source, destination):
             for station in allStations.stations:
                 if ( source == station.name ):
                     s = station
-                if (destionation == station.name):
+                if (destination == station.name):
                     d = station
         
             if ( s == None or d == None) :

@@ -15,7 +15,7 @@ obj = Myclass()
 
 #* Class attriubtes vs instance attributes
 class Car:
-    noOfWheel = 4 # this is class attrubute
+    noOfWheel = 4 # this is class attrubute (same like static variables )
 
 inova = Car()
 inova.noOfWheel = 10 # this is an instance attribute
