@@ -8,7 +8,7 @@ pip3 install virtualenv
 # step-2
 # on your project directory 
 ```bash
-python -m venv <path-of-venv-folder>
+python -m venv <name-of-venv>
 ```
 # step-3
 # Activate your virtual environment
