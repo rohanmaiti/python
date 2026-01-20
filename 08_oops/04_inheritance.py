@@ -7,6 +7,7 @@ class Car:
         print(f'Car brand = {self.brand} and modle = {self.model}')
     
 
+# #* 1. Signle inheritance
 class ElectricCar(Car):
     def __init__(self, brand, model, batttery_size):
         super().__init__(brand, model) # calling parent class constructor
@@ -16,7 +17,7 @@ my_car = ElectricCar('Toyota', 'Fortuner', '1000kw')
 my_car.printCar()
 
 
-# is there multiple inheritance in python ?
+# #* 2. Multiple inheritance (Multiple parents, one child	) in python ? --> yes
 class Battery:
     def __init__(self, brand):
         self.brand = brand
@@ -38,3 +39,26 @@ class Car(Battery, Engine):
 my_car = Car('1000kw', 'tata')
 print(my_car.print_engine())
 print(my_car.print_battery())
+
+
+# #* If battery and Engine class both have same function name then what will happen ?
+# #* Python follows MRO (Method Resolution Order).
+# Left-to-right inheritance order matters
+# First matching method is called
+class Battery:
+    def start(self):
+        print("Battery start")
+
+class Engine:
+    def start(self):
+        print("Engine start")
+
+class Car(Battery, Engine):
+    pass
+
+c = Car()
+c.start()
+
+print(Car.__mro__)
+
+# There is also 3. Multilevel inheritance (Chain A→B→C), 4. Hyerachial inheritance (One parent, multiple children), 5. Hybrid inheritance  (mix)

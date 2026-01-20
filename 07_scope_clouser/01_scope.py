@@ -22,13 +22,13 @@
 
 # **********
 #* question
-x = 10
-def func(y):
-    z = x + y
-    return z
+# x = 10
+# def func(y):
+#     z = x + y
+#     return z
 
-result = func('None')
-print(result)
+# result = func('None')
+# print(result)
 
 #* question
 def func():

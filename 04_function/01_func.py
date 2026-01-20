@@ -6,12 +6,24 @@ def sum(num1, num2):
 # calling the function 
 sum(10, 30)
 
+# #* Positional arguments
 def my_function(arg1, arg2):
     print('printing arguments', arg1, arg2)
 
 my_function('rohan','rahul')
 # what if i am passing one parameter in a 2 argument functoin ?
-# my_function('kanu')  # it will throw error 
+# my_function('kanu')  # it will throw error , if if want to make some argument as optional then will have to assign that with None
+
+def my_function(arg1, arg2=None):
+    print(f"printing arguments {arg1} and {arg2}")
+
+my_function('rohan')
+
+# #* Keyword arguments
+def my_function(a, b):
+    print(f"Printing a={a} b={b}")
+
+my_function(b=10, a=20)
 
 #* Arbitrary Arguments, *args
 def my_function(name, *marks):
@@ -55,3 +67,10 @@ def operation(num1, num2=0):
     print('write logic here')
     return num1 * num2
 print(operation(10, 20))
+
+# #* Python function can return multiple values as tuple 
+def my_function(a,b):
+    return a+b, a-b
+
+sum, sub = my_function(10, 5)
+print(f"sum = {sum} and sub = {sub}")
