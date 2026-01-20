@@ -19,13 +19,13 @@
 # print(tuple);
 # print(type(tuple));
 
-# #* single value tuple writing systax
-# tup = (1,);
-# print(type(tup));
+#* single value tuple writing systax
+# tup = (1,)
+# print(type(tup))
 
 # #* why
-# tup = (10);
-# print(type(tup));
+# tup = (10)
+# print(type(tup))
 
 # #*  sliceing also same here
 # #* methods in tuple

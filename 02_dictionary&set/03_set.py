@@ -16,6 +16,9 @@ for x in myset:
 set = { 1, 3, 'number', True, False, 0}
 print(set)
 
+# One important note: An empty {} creates a dictionary, not a set. To create an empty set, use set().
+empty_dict = {}        # This is a dictionary
+empty_set = set()      # This is a set
 
 #* Check if "banana" is present in the set:
 print('banana' in myset)
