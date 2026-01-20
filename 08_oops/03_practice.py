@@ -70,11 +70,11 @@ class Train:
     def calcualteFare(source, destination):
             for station in allStations.stations:
                 if ( source == station.name ):
-                    s = station.name
+                    s = station
                 if (destionation == station.name):
-                    d = station.name
+                    d = station
         
             if ( s == None or d == None) :
              print('Enter valid stations name')
             else:
-             print('Your fare is')
+             print('Your fare is', d.id - s.id)
