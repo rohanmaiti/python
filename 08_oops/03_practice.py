@@ -43,25 +43,25 @@ Calculator.hello()
 
 class Train:
     allStations = {
-        stations: [
+        'stations': [
             {
-                name: 'Balichak',
+                'name': 'Balichak',
                 id:'1'
             },
             {
-                name: 'Samchak',
+                'name': 'Samchak',
                 id:'2'
             },
             {
-                name: 'Madpur',
+                'name': 'Madpur',
                 id:'3'
             },
             {
-                name: 'Kharagpur',
+                'name': 'Kharagpur',
                 id:'4'
             },
             {
-                name: 'Medinipur',
+                'name': 'Medinipur',
                 id:'5'
             }
         ]
