@@ -62,6 +62,11 @@ a.show_role()
 class User:
     def __init__(self):
         self.__password = "secret"
+    def __get_password(self):
+        return self.__password
+    
+    def show_password(self):
+        return self.__get_password() 
 
 u = User()
 # print(u.__password)  ❌ AttributeError
