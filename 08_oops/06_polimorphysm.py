@@ -25,6 +25,7 @@ my_petrol_car = Car('Honda', 'I20')
 my_electric_car = ElectricCar('Tesla', 'M1', '2000kw')
 print(my_petrol_car.fule_type())
 print(my_electric_car.fule_type()) # it overwrites the same_method, so ans --> Electric power
+# #* above is compile time 
 
 
 # # ******** Example -2 
@@ -48,38 +49,3 @@ print(my_electric_car.fule_type()) # it overwrites the same_method, so ans --> E
 # print(Car.total_car)
 
 
-# ** how make the model instance read only using decorator 
-# class Car:
-#     def __init__(self, brand, model):
-#         self.__brand = brand # make this privare 
-#         self.__model = model # but has to make this read only 
-#     @property
-#     def model(self):
-#         return self.__model
-
-# my_car = Car('Abc', 'Test')
-# print(my_car.brand) #* cant access like this as this is private 
-# my_car.model = 'another' #* cant chage as this is read only variabel 
-# print(my_car.model)
-
-# * making setter and getter 
-class Person:
-    def __init__(self, name):
-        self.__name = name
-
-    @property
-    def name(self):  # getter
-        return self.__name
-
-    @name.setter
-    def name(self, value):  # setter
-        if isinstance(value, str):
-            self.__name = value
-        else:
-            raise ValueError("Name must be a string")
-
-p = Person("Rohan")
-print(p.name)     # ✅ Calls getter
-
-p.name = "Maiti"  # ✅ Calls setter
-print(p.name)
