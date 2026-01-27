@@ -110,8 +110,10 @@ thisdict = {
   "model": "Mustang",
   "year": 1964
 }
+# * print all keys in the dictionary
 for x in thisdict:
   print(x)
+
 # * Print all values in the dictionary, one by one:
 for x in thisdict:
  print(thisdict[x])
