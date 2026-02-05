@@ -60,7 +60,7 @@ print(thisdict)
 print(thisdict.keys())
 x = thisdict.keys()
 
-# #* The keys() method will return a list of all the keys in the dictionary.
+# #* The values() method will return a list of all the values in the dictionary.
 print(thisdict.values())
 
 # #* The items() method will return each item in a dictionary, as tuples in a list.
