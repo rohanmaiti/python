@@ -60,14 +60,14 @@ multiline comment
 # print(a*b);
 # print(a/b); #* will give float value
 # print(a%b);
-# print(a**b);
+# print(a**b); #* this is a^2 
 
 # #* logical operator (or, and, not)
 # print(not False);
 # print(not (a>b));
 
 # print(True and False)
-# print((0 and 5)); #* if any number is 0 and the operator is and them it returns 0 else returns the right side's number
+# print((0 and 5)); #* if any number is 0 and the operator is and then it returns 0 | else returns the right side's number
 # print(5 and 3); #* will return 3;
 # print((5 or 0));
 # print(4 or 3);  #* if both the numbers are not non-zero and the operator is or then retuns the left side's number
