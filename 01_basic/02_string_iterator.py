@@ -10,7 +10,7 @@
 # str2 = "string 2";
 # print(str1+str2);
 
-# #* lenght of a function
+# #* lenght of a string
 # print(len(str1));
 
 # #* indexing (0 base indexing)
