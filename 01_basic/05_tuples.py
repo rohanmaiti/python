@@ -40,6 +40,10 @@ tup = ("id", 1314)
 roll_number, value_of_roll_number = tup
 print(roll_number, value_of_roll_number)
 
+# #* Can uppack list as well
+a, b = [1,2]
+print('a, b = ', a, b)
+
 
 
 # #* Q.Ask to enter three movie names from user and store it in a list
