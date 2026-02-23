@@ -65,6 +65,13 @@
 # print(result)
 # print(type(result))
 
+# #* As string in python is immutable then how you will solve dsa qustions in string ?? 
+# #* >> You will convert the str into char[array] -> then again to string
+str = 'abcdefghij' 
+char_array = list(str)
+print(char_array)
+print(''.join(char_array))
+
 #* Map || Comprehension
 # Example-1 
 # def square(n):
