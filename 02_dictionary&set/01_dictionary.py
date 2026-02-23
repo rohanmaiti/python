@@ -24,7 +24,7 @@
 # dic['another_key'] = 'new key'
 # print(dic);
 # #* Add items using update 
-# dic.update({'newKey': 'newValue'})
+# dic.update({'newKey': 'newValue', 'newKey2': 'newValue2'})
 # print(dic)
 
 
@@ -42,33 +42,33 @@
 # print(len(thisdict))
 
 # #* The values in dictionary items can be of any data type:
-thisdict = {
-  "brand": "Ford",
-  "electric": False,
-  "year": 1964,
-  "colors": ["red", "white", "blue"]
-}
+# thisdict = {
+#   "brand": "Ford",
+#   "electric": False,
+#   "year": 1964,
+#   "colors": ["red", "white", "blue"]
+# }
 
-print(thisdict['colors'][1])
+# print(thisdict['colors'][1])
 
 
 # #* changing value in dic
-thisdict["brand"] = 'Nike'
-print(thisdict)
+# thisdict["brand"] = 'Nike'
+# print(thisdict)
 
 # #* The keys() method will return a list of all the keys in the dictionary.
-print(thisdict.keys())
-x = thisdict.keys()
+# print(thisdict.keys())
+# x = thisdict.keys()
 
 # #* The values() method will return a list of all the values in the dictionary.
-print(thisdict.values())
+# print(thisdict.values())
 
 # #* The items() method will return each item in a dictionary, as tuples in a list.
-print(thisdict.items())
+# print(thisdict.items())
 
 # #* Check if Key Exists --> use the in keyword:
-if "model" in thisdict:
-  print("Yes, 'model' is one of the keys in the thisdict dictionary")
+# if "model" in thisdict:
+#   print("Yes, 'model' is one of the keys in the thisdict dictionary")
 
 # #* Removing Items
 # #* There are several methods to remove items from a dictionary:
