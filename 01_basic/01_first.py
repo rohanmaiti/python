@@ -36,7 +36,7 @@
 
 # #* Datatype in python --> 
 # #* 1. Immutable 
-# #* Integer(int), String(str) (can be writen inside "str",'str','''str'''), Float(float), Boolean(True, Flase : note T and F are capital), None (None)
+# #* Integer(int), String(str) (can be writen inside "str",'str','''str'''), Float(float), Boolean(True, Flase : note T and F are capital)(bool), None (None)
 # #* 2. Mutable - list, dict, set
 # x = True;
 # a = None;
@@ -78,6 +78,12 @@ multiline comment
 # *Type conversion
 # *1. Type conversion (automatic)
 # *2. Type casting (manully)  --> SYNTAX: DataType(ele)
+#* primitive DT => int(), float(), str(), bool()
+
+# num1 = 10
+# num2 = 20.2
+# sum = num1 + num2 # this is type conversion (automatic)
+# print(type(sum))
 
 # a = "1.2";
 # b = 5;
@@ -96,6 +102,10 @@ multiline comment
 
 # print(str(a));
 # print(type(str(a)))
+
+# print(bool(100))
+# print(bool(-1))
+# print(bool(0))
 
 # #* taking input
 # name = input("enter your name : "); #* take space also and all input are by default string
