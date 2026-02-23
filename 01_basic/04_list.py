@@ -5,7 +5,7 @@
 # print(arr[0])  # Access first element
 
 # * empty list
-arr = []
+# arr = []
 
 # * ADDING ELEMENT IN LIST
 # arr.append(10)
@@ -93,7 +93,7 @@ arr = []
 
 
 # #* SEARCHING 
-arr = [1, 2, 3, 2]
-print(arr.index(2))  # First index of 2
-print(3 in arr)      # Check if 3 is in list
-print(arr.count(2))  # Count occurrences of 2
+# arr = [1, 2, 3, 2]
+# print(arr.index(2))  # First index of 2
+# print(3 in arr)      # Check if 3 is in list
+# print(arr.count(2))  # Count occurrences of 2
