@@ -1,24 +1,24 @@
-# #*print some thing 
+"" "print some thing  """
 # print("Hello Rohan");
 # # print varients
 # print("My name is Rohan.");
 # print("My age is 21");
 # print("My name is Rohan.", "My age is 21.");
 
-# #*printing number
+""" printing number """
 # print(25)
 # print(25+35)
 # name="Rohan"
 # print(f"hii hello {name}")
 
-# #*variable 
+""" variable """
 # name = "Rohan"; # string
 # age = 21; # number 
 # price = 15.23;
 # print(name, age, price);
 # print("my name is :",name);
 
-# #* can not have a uninitilised variable like this
+""" can not have a uninitilised variable like this """
 # fullname;  #* ERROR as not initialised
 # #* make it initialise with None
 # fullname = None;  #* in this case not error
@@ -29,12 +29,12 @@
 # print(age);
 # print(age2);
 
-# *checking type
+""" checking type """
 # print(type(age));
 # print(type(price));
 # print(type(name));
 
-# #* Datatype in python --> 
+""" Datatype in python --> """
 # #* 1. Immutable 
 # #* Integer(int), String(str) (can be writen inside "str",'str','''str'''), Float(float), Boolean(True, Flase : note T and F are capital)(bool), None (None)
 # #* 2. Mutable - list, dict, set
@@ -51,8 +51,8 @@
 multiline comment 
 """
 
-# #* Operator
-# #* Arithmetic Operator
+""" Operator """
+""" Arithmetic Operator -- precidence same as java """
 # a = 5
 # b = 2
 # print(a+b);
@@ -62,7 +62,7 @@ multiline comment
 # print(a%b);
 # print(a**b); #* this is a^2 
 
-# #* logical operator (or, and, not)
+""" logical operator (or, and, not) """ 
 # print(not False);
 # print(not (a>b));
 
@@ -75,7 +75,7 @@ multiline comment
 # print((a == b) or (b > a));
 # print ( a != b)
 
-# *Type conversion
+""" Type conversion """
 # *1. Type conversion (automatic)
 # *2. Type casting (manully)  --> SYNTAX: DataType(ele)
 #* primitive DT => int(), float(), str(), bool()
@@ -107,23 +107,23 @@ multiline comment
 # print(bool(-1))
 # print(bool(0))
 
-# #* taking input
+""" taking input """ 
 # name = input("enter your name : "); #* take space also and all input are by default string
 # print("your name is :",name);
 # print(type(name)); #* all input value is bydefault string
 
-# #* taking int as a input 
+""" taking int as a input """
 # num1 = int(input("Enter 1st number : "));
 # num2 = int(input("Enter 2nd numner : "));
 # print("Sum of two number is ", num1+num2);
 
-# #* safe side to take input as number
+""" safe side to take input as number """
 # num1 = float(input("Enter float num1 : "));
 # num2 = float(input("Enter float num2 : "));
 # print("Sum of two number is ", num1+num2);
 
 
-# #* question 
+""" question """
 # take a input of a square and o/p the area
 # side = float(input("enter side of a square: "));
 # print("Area of square is ,",(side**2));
@@ -132,6 +132,6 @@ multiline comment
 result = 10 / 3
 print(result) # 3.33333333
 
-#* to decide precidence 
+""" to decide precidence  """
 result = round(10/3 , 2)
 print(result)
